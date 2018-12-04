@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">RoomDatabaseECO</string>
+
+    <!--MainActivity-->
+    <string name="btn_create">Create</string>
+    <string name="btn_view">View</string>
+
+    <!--CreateActivity-->
+    <string name="hint_fname">FirstName</string>
+    <string name="hint_mname">MiddleName</string>
+    <string name="hint_lname">LastName</string>
+    <string name="btn_submit">Submit</string>
+
+    <!--ViewAllActivity-->
+    <string name="tv_persondetails">Person Details</string>
+
+    <!--view_dialog-->
+    <string name="btn_edit">Edit</string>
+    <string name="btn_delete">Delete</string>
+
+</resources>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="@dimen/_11sdp"
+    tools:context=".CreateActivity">
+
+    <android.support.v7.widget.CardView
+        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="@dimen/_4sdp"
+        android:padding="@dimen/_10sdp"
+        card_view:cardBackgroundColor="@color/background_material_light"
+        card_view:cardCornerRadius="@dimen/_3sdp"
+        card_view:cardElevation="@dimen/_2sdp">
+
+        <LinearLayout
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:gravity="center_horizontal">
+
+            <EditText
+                android:id="@+id/edt_firstname"
+                android:layout_height="wrap_content"
+                android:layout_width="@dimen/_200sdp"
+                android:layout_marginTop="@dimen/_11sdp"
+                android:inputType="textPersonName"
+                android:hint="@string/hint_fname"/>
+
+            <EditText
+                android:id="@+id/edt_middlename"
+                android:layout_height="wrap_content"
+                android:layout_width="@dimen/_200sdp"
+                android:layout_marginTop="@dimen/_11sdp"
+                android:inputType="textPersonName"
+                android:hint="@string/hint_mname"/>
+
+            <EditText
+                android:id="@+id/edt_lastname"
+                android:layout_height="wrap_content"
+                android:layout_width="@dimen/_200sdp"
+                android:layout_marginTop="@dimen/_11sdp"
+                android:inputType="textPersonName"
+                android:hint="@string/hint_lname"/>
+
+            <Button
+                android:id="@+id/btn_submit"
+                android:layout_height="wrap_content"
+                android:layout_width="@dimen/_200sdp"
+                android:layout_marginTop="@dimen/_11sdp"
+                android:layout_marginBottom="@dimen/_11sdp"
+                android:text="@string/btn_submit"/>
+
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>
